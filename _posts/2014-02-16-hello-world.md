@@ -1,17 +1,30 @@
 ---
 layout: post 
-title: Hello World
+title: 你好，世界
 ---
 
-#Hello World!#
-##subtile##
+#你好，世界!#
 
-Bacon ipsum dolor sit amet pastrami ribeye turducken short loin
-biltong. Kielbasa t-bone ham hock short ribs, sausage ribeye prosciutto
-salami sirloin. Pancetta rump pork loin, prosciutto short loin bacon pork
-pork chop andouille jerky t-bone meatball shank. Meatloaf fatback pork short
-loin andouille. Sausage pork chop prosciutto tail turkey ball tip. Jowl
-shoulder jerky beef ribs hamburger bacon, short ribs leberkase flank
-meatball filet mignon spare ribs brisket sausage. Swine meatball pancetta
-t-bone shoulder, corned beef frankfurter pork.
+>###静夜思###
+>床前明月光,  
+>疑是地上霜;  
+>举头望明月,  
+>低头思故乡.
+
+#### a piece of `python` code  
+{% highlight python linenos %}
+print "hello world"
+{% endhighlight %}
+
+#### a piece of `java` code
+{% highlight java linenos %}
+/**
+ * hello world 
+ */
+public class Hello {
+	public static void main(String[] args) {
+		System.out.println("Hello world.");
+	}
+}
+{% endhighlight %}
 
