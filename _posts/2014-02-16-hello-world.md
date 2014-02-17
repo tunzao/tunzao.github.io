@@ -15,10 +15,3 @@ shoulder jerky beef ribs hamburger bacon, short ribs leberkase flank
 meatball filet mignon spare ribs brisket sausage. Swine meatball pancetta
 t-bone shoulder, corned beef frankfurter pork.
 
-``` java  
-public class HelloWorld {
-	public static void main(String[] args) {
-		System.out.println("Hello World");
-	}
-}
-```
