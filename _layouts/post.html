@@ -2,6 +2,7 @@
 layout: default
 ---
 
+<<<<<<< HEAD
 <main id="main" class="main-content" aria-label="Content">
   <article class="h-entry">
     {% include page-image.html %}
@@ -14,6 +15,35 @@ layout: default
           <h1 id="page-title" class="page-title p-name">{{ title }}</h1>
         {% endif %}
       </header>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>{{ page.title }}</title>
+	<meta charset='utf-8'>
+	<link rel="stylesheet" media="screen" href="/assets/css/master.css"/>
+	<link rel="stylesheet" media="screen" href="/assets/css/markdown.css"/>
+	<link rel="stylesheet" media="screen" href="/assets/css/syntax.css"/>
+</head>
+<body>
+	<div id="container">
+		<header class="group">
+			<div class="header-inner">
+			<h1 class="logo"><a href="/">吞枣的博客</a></h1>
+			</div>
+		</header>
+		<div id="content">
+		<section id="main" class="group">
+		{{ content }} 
+		<div>
+			<a href="/">首页</a>
+		</div>
+		</section>
+        <!-- UY BEGIN -->
+        <div id="uyan_frame"></div>
+        <script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=1787587"></script>
+        <!-- UY END -->
+>>>>>>> add sns comment
 
       <div class="page-sidebar">
         {% include page-author.html %}
