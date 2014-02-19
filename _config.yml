@@ -1,1 +1,4 @@
 pygments:    true
+permalink: pretty
+paginate: 10
+baseurl: /
