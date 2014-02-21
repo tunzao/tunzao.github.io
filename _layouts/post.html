@@ -1,5 +1,10 @@
 ---
+<<<<<<< HEAD
 layout: default
+=======
+layout: post 
+blog_name: 吞枣的博客
+>>>>>>> add favicon and about page
 ---
 
 <<<<<<< HEAD
@@ -19,7 +24,7 @@ layout: default
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>{{ page.title }}</title>
+	<title>{{ page.title }} - {{ page.blog_name }}</title>
 	<meta charset='utf-8'>
 	<link rel="stylesheet" media="screen" href="/assets/css/master.css"/>
 	<link rel="stylesheet" media="screen" href="/assets/css/markdown.css"/>
@@ -27,11 +32,7 @@ layout: default
 </head>
 <body>
 	<div id="container" class="container">
-		<header class="group">
-			<div class="header-inner">
-			<h1 class="logo"><a href="/">吞枣的博客</a></h1>
-			</div>
-		</header>
+		{% include header.html %}
 		<div id="content">
 		<section id="main" class="group">
 		{{ content }} 

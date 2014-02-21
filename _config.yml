@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your whole blog, values
@@ -103,9 +102,3 @@ footer_links:
   - title: Feed
     url: atom.xml
     icon: fas fa-rss-square
-=======
-pygments:    true
-permalink: pretty
-paginate: 10
-baseurl: /
->>>>>>> add pagination support
