@@ -80,9 +80,12 @@ header .logo a:hover {
 }
 
 header .sub-logo {
-	text-transform:none;
-	/* font-size: 1em; */
 	margin-left:10px;
+}
+
+header .logo {
+	border:none;
+	padding-top:0.25em;
 }
 
 #main {
@@ -136,4 +139,9 @@ header .sub-logo {
 
 *:first-child+html .group {
 	min-height: 1px;
+}
+
+.footer {
+	margin:10px auto;
+	text-align:center;
 }
