@@ -145,3 +145,29 @@ header .logo {
 	margin:10px auto;
 	text-align:center;
 }
+
+a.tag {
+	display: inline-block;
+	background: #FFF;
+	border: 1px solid #e6e6e6;
+	padding: 0 8px;
+	height: 20px;
+	line-height: 20px;
+	max-width: 160px;
+	overflow: hidden;
+	color: #666;
+	vertical-align: middle;
+	font-size: 13px;
+	text-decoration:none;
+	font-weight:normal;
+}
+
+a.tag:hover {
+	background: #F0F0F0;
+	text-decoration:none;
+	font-weight:normal;
+}
+
+.tags {
+	margin: 10px 0;
+}

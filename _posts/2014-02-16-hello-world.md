@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: 你好，世界
+tags: [hello, world]
 ---
 
 #你好，世界!#

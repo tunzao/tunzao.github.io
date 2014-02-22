@@ -18,10 +18,12 @@ blog_name: 吞枣的博客
 		<div id="content">
 		<section id="main" class="group">
 		{{ content }} 
-		<div>
-			<a href="/">返回首页</a>
-		</div>
 		</section>
+		<div class='tags'>
+			{% for tag in page.tags %}
+				<a href='/tags/{{ tag }}' class='tag'>{{ tag }}</a>
+			{% endfor %}	
+		</div>
         <!-- UY BEGIN -->
         <div id="uyan_frame"></div>
         <script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=1787587"></script>
