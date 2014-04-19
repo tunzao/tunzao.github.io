@@ -4,13 +4,21 @@ blog_name: 吞枣的博客
 ---
 
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
 	<title>{{ page.title }} - {{ page.blog_name }}</title>
 	<meta charset='utf-8'>
 	<link rel="stylesheet" media="screen" href="/assets/css/master.css"/>
 	<link rel="stylesheet" media="screen" href="/assets/css/markdown.css"/>
 	<link rel="stylesheet" media="screen" href="/assets/css/syntax.css"/>
+    {{ page.custom_css }}
+    {% if page.flappy %} 
+        <script src="/assets/js/phaser.min.js"></script>
+        <script src="/assets/js/load.js"></script>
+        <script src="/assets/js/menu.js"></script>
+        <script src="/assets/js/play.js"></script>
+        <script src="/assets/js/game.js"></script>
+    {% endif %}
 </head>
 <body>
 	<div id="container" class="container">
