@@ -5,3 +5,5 @@ paginate: 10
 baseurl: /
 
 # lsi: true   #produce and index for related posts.
+
+markdown: kramdown
