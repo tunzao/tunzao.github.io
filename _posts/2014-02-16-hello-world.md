@@ -13,12 +13,12 @@ tags: [hello, world]
 >低头思故乡.
 
 #### a piece of `python` code  
-{% highlight python linenos %}
+{% highlight python %}
 print "hello world"
 {% endhighlight %}
 
 #### a piece of `java` code
-{% highlight java linenos %}
+{% highlight java %}
 /**
  * hello world 
  */
