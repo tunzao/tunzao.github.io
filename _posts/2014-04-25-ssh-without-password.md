@@ -19,6 +19,6 @@ scp ~/.ssh/id_rsa.pub user@remote:~     # 公钥复制到目标服务器
 {% endhighlight %}  
 然后登陆远程服务器,把公钥追加到~/.ssh/authorized_keys   
 {% highlight bash %} 
-cat ~/id_rsa.pub ~/.ssh/authorized_keys 
+cat ~/id_rsa.pub >> ~/.ssh/authorized_keys 
 {% endhighlight %}  
 最后删除`id_rsa.pub`,测试吧。  
