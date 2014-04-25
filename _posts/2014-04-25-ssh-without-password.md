@@ -14,6 +14,6 @@ tags: ssh
 
 原理就是在本机生成密钥对，然后把公钥上传到目标服务器的目标位置：  
 1. `ssh-keygen -t rsa   #生成密钥对`
-2. `scp ~/.ssh/id_rsa.pub user@remote:~     # 公钥复制到目标服务器`
+1. `scp ~/.ssh/id_rsa.pub user@remote:~     # 公钥复制到目标服务器`
 3. 然后登陆远程服务器,把公钥追加到~/.ssh/authorized_keys `cat ~/id_rsa.pub ~/.ssh/authorized_keys`
 4. 最后删除`id_rsa.pub`,测试吧。
