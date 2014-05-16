@@ -1,6 +1,6 @@
 *{margin:0;padding:0;}
 body {
-	 font:13.34px helvetica,arial,freesans,clean,sans-serif;
+	 font:14px helvetica,arial,freesans,clean,sans-serif;
 	 color:black;
 	 line-height:1.4em;
 	 background-color: #F8F8F8;
@@ -42,8 +42,8 @@ pre code {
 }
 code {
 	 font-size:12px;
-	 background-color:#f8f8ff;
-	 color:#444;
+	 background-color:#f9f2f4;
+	 color:#c7254e;
 	 padding:0 .2em;
 	 border:1px solid #dedede;
 }
@@ -63,7 +63,10 @@ ul{margin:1em 0 1em 2em;}
 ol{margin:1em 0 1em 2em;}
 ul li,ol li{margin-top:.5em;margin-bottom:.5em;}
 ul ul,ul ol,ol ol,ol ul{margin-top:0;margin-bottom:0;}
-blockquote{margin:1em 0;border-left:5px solid #ddd;padding-left:.6em;color:#555;}
+blockquote{margin:1em 0;border-left:5px solid #DC7172;padding-left:.6em;color:#555;}
+blockquote p {
+font-size: 14px;
+}
 dt{font-weight:bold;margin-left:1em;}
 dd{margin-left:2em;margin-bottom:1em;}
 sup {
