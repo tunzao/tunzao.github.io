@@ -15,4 +15,4 @@ sudo apt-get install vim-scripts vim-gnome vim-gtk
 
 [参考](http://www.liurongxing.com/ubuntu-system-vim-to-use-the-system-clipboard.html)
 
-[vim-paste]: http://tunzao.github.io/2014/02/16/vim-paste/
+[vim-paste]: /2014/02/16/vim-paste/
