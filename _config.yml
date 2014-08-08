@@ -1,4 +1,4 @@
-pygments:    true
+highlighter: pygments
 permalink: pretty
 # 分页
 paginate: 10
