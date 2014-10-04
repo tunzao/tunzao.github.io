@@ -28,7 +28,7 @@ function marks {
 把当前目录加到书签`mark your_mark_name`  
 显示所有书签： `marks`  
 跳转到指定书签： `jump your_mark_name`  
-删除指定标签： `unmark <i>your_mark_name</i>`
+删除指定标签： `unmark your_mark_name`
 
 以下代码给`jump`,`unmark`增加按Tab提示功能：
 
