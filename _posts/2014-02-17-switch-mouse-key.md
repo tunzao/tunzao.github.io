@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ubuntu命令行切换鼠标左右键
+title: Ubuntu命令行切换鼠标左右键
 ---
 
 
