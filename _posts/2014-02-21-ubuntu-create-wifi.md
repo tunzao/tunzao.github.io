@@ -28,6 +28,7 @@ cd /tmp && wget http://archive.ubuntu.com/ubuntu/pool/universe/w/wpa/hostapd_1.0
 cd /tmp && wget http://archive.ubuntu.com/ubuntu/pool/universe/w/wpa/hostapd_1.0-3ubuntu2.1_i386.deb && sudo dpkg -i hostapd*.deb && sudo apt-mark hold hostapd
 {% endhighlight %}
 不过我在Mint上卸载`hostapd`的时候系统自动把`ap-hotspot`也给卸了，再安装一下就好了。
+
 2.使用
 {% highlight bash %}
 ap-hotspot configure    # 配置wifi
