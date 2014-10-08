@@ -1,11 +1,11 @@
 ---
 layout: post
-title: shell书签功能
+title: Shell书签功能
 ---
 
-#shell书签功能
+#Shell书签功能
 
-使用shell时有些总会有些经常访问的目录，老是`cd`来`cd`去的实在是麻烦，
+使用shell时总会有些经常访问的目录，老是`cd`来`cd`去的实在是麻烦，
 这不，总会有些大牛闲着木事解放我们的双手，利用软连接实现shell下的书签(类似浏览器)。
 
 {% highlight bash %}
