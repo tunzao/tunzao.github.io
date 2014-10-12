@@ -88,6 +88,10 @@ header .logo {
 	padding-top:0.25em;
 }
 
+header .logo a.active {
+	color : red;
+}
+
 #main {
 	line-height: 1.5;
 	margin: 0;
