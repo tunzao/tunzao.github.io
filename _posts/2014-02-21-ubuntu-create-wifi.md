@@ -2,7 +2,6 @@
 layout: post
 title: Ubuntu 12.04 创建wifi分享
 ---
-#Ubuntu 12.04 创建wifi分享
 如果你曾想过要用12.04建立个wifi分享的话，  
 你应该了解到，  
 直接通过右上角的网络管理新建的ad-hoc很多安卓设备没法识别。  
