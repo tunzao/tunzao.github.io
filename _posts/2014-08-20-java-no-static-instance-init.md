@@ -3,7 +3,6 @@ layout: post
 title: Java双括号语法
 tags: java
 ---
-#Java双括号语法
 
 第一次接触双括号语法是使用mybatis，代码如下：
 
