@@ -9,7 +9,7 @@ body {
 	font-size: 100%;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	line-height: 1;
-	margin: 0;
+	margin: auto;
 	padding: 0;
 }
 
@@ -44,7 +44,7 @@ pre code {
 
 #container {
 	/* bump down global font size. */
-	font-size: .95em;
+	font-size: 1em;
 	margin: 0 auto;
 	width: 850px;
 }
@@ -65,7 +65,7 @@ header {
 
 header .logo {
 	float: left;
-	font-size: 2em;
+	font-size: 25px;
 	margin: 0;
 	text-transform: uppercase;
 }
@@ -86,6 +86,10 @@ header .sub-logo {
 header .logo {
 	border:none;
 	padding-top:0.25em;
+}
+
+header .logo a.active {
+	color : red;
 }
 
 #main {

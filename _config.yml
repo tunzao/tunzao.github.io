@@ -1,7 +1,7 @@
-pygments:    true
+highlighter: pygments
 permalink: pretty
 # 分页
-paginate: 10
+paginate: 15
 baseurl: /
 
 # lsi: true   #produce and index for related posts.

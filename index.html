@@ -3,13 +3,23 @@ layout: default
 title: 吞枣的博客
 blog_name: 吞枣的博客
 ---
-
-<section id="main" class="group">
-	<h2>Posts</h2>
+<style>
+.post-hd-d {
+    float:left;
+    margin-left:-20px;
+    color:#f33;
+}
+</style>
+<div id="main" class="group">
+	<p>Posts</p>
 	<ul class="posts">
 		{% for post in paginator.posts %}
-		<li>
-		<span class="post-date">{{ post.date | date_to_string }}</span> <a href="{{ post.url }}">{{ post.title }}</a>
+		<li class="post">
+            <div class='post-hd-d' style="float:left;margin-left:-20px;">
+                <span class='post-header' style='display:none'><i class='fa fa-angle-double-right'></i></span>
+            </div> 
+            <span class="post-date">{{ post.date | date: "%F" }}</span> 
+            <a href="{{ post.url }}">{{ post.title }}</a>
 		</li>
 		{% endfor %}
 	</ul> 
@@ -18,7 +28,9 @@ blog_name: 吞枣的博客
 		<ul class="pagination">
 		{% if paginator.previous_page %}
 			{% if paginator.previous_page == 1%}
-				<li><a href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a></li>
+				<li>
+                    <a href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
+                </li>
 			{% else %}
 				<li><a href="/page{{ paginator.previous_page }}">&laquo; Prev</a></li>
 			{% endif %}
@@ -32,7 +44,8 @@ blog_name: 吞枣的博客
 		{% elsif page == 1 %}
 		<li><a href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a></li>
 		{% else %}
-		<li><a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
+		<li><a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+		</li>
 		{% endif %}
 		{% endfor %}
 
@@ -44,6 +57,17 @@ blog_name: 吞枣的博客
 		</ul>
 		</div>
 	{% endif %}
-</section> 
+</div> 
+
+<script>
+$(function() {
+	$('.post').mouseenter(function() {
+		$(this).find('.post-header').show();
+	}).mouseleave(function() {
+		$(this).find('.post-header').hide();     
+	});
+});
+
+</script>
 
 

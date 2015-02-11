@@ -6,11 +6,15 @@ blog_name: 吞枣的博客
 <!DOCTYPE html>
 <html>
 <head>
-	<title>{{ page.title }} - {{ page.blog_name }}</title>
+	<title>{{ page.title }} - 吞枣的博客</title>
 	<meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="http://cdn.bootcss.com/twitter-bootstrap/3.0.3/css/bootstrap.min.css">
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 	<link rel="stylesheet" media="screen" href="/assets/css/master.css"/>
 	<link rel="stylesheet" media="screen" href="/assets/css/markdown.css"/>
 	<link rel="stylesheet" media="screen" href="/assets/css/syntax.css"/>
+    <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
     {{ page.custom_css }}
     {% if page.flappy %} 
         <script src="/assets/js/phaser.min.js"></script>
@@ -19,13 +23,32 @@ blog_name: 吞枣的博客
         <script src="/assets/js/play.js"></script>
         <script src="/assets/js/game.js"></script>
     {% endif %}
+    <style type="text/css">
+    	.post-title {
+    		float:left;
+    	}
+
+    	.published-date {
+    		float:right;
+    	}
+
+    	.title-container {
+    		height: 30px;
+    	}
+    </style>
 </head>
-<body>
-	<div id="container" class="container">
+<body >
+	<div class="container" id="container">
 		{% include header.html %}
 		<div id="content">
 		<section id="main" class="group">
-		{{ content }} 
+		<div class='title-container'>
+			<h1 class="post-title">{{ page.title }}</h1>
+			<div class='published-date'>发表于{{ page.date | date: '%F' }}</div>
+		</div>
+		<div class="content">
+			{{ content }} 
+		</div>
 		</section>
 		<div class='tags'>
 			{% for tag in page.tags %}

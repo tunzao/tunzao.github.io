@@ -3,7 +3,6 @@ layout: post
 title: SSH无密码登陆
 tags: ssh
 ---
-#SSH无密码登陆
 
 这方面的文章网上写的也是异常泛滥了，  
 那我为啥还要冗余的写上一篇?  
@@ -17,7 +16,7 @@ tags: ssh
 ssh-keygen -t rsa   #生成密钥对 
 scp ~/.ssh/id_rsa.pub user@remote:~     # 公钥复制到目标服务器 
 {% endhighlight %}  
-然后登陆远程服务器,把公钥追加到~/.ssh/authorized_keys   
+然后登陆远程服务器,把公钥追加到`~/.ssh/authorized_keys`  
 {% highlight bash %} 
 cat ~/id_rsa.pub >> ~/.ssh/authorized_keys 
 {% endhighlight %}  
