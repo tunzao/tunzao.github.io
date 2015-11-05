@@ -1,3 +1,4 @@
 *.swp
 _site
 .todo
+.DS_Store
