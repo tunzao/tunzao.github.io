@@ -2,6 +2,8 @@
 layout: post
 title: 给hosts文件生成ctags文件
 tags: [linux, ctags]
+categories: articles
+comments: true
 ---
 经常编辑hosts文件，
 定位具体位置的时候以前用搜索功能，但是域名相似的配置实在太多，不能立即跳转到指定地方，

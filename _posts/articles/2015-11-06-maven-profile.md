@@ -2,6 +2,8 @@
 layout: post 
 title: 使用 Maven Profile 和 Filtering 打各种环境的包
 tags: [java, maven, profile]
+categories: articles
+comments: true
 ---
 
 
