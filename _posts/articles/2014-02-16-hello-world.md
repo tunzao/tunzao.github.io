@@ -2,6 +2,8 @@
 layout: post 
 title: 你好，世界
 tags: [hello, world]
+categories: articles
+comments: true
 ---
 
 >###静夜思###

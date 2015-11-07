@@ -2,6 +2,8 @@
 layout: post
 title: Ubuntu 12.04 vim 无系统剪切板
 tags: [vim, ubuntu]
+categories: articles
+comments: true
 ---
 
 突然间发现我的vim系统剪切板不能用了，  

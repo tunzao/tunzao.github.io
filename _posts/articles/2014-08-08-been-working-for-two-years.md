@@ -2,6 +2,8 @@
 layout: post
 title: 两周年庆--好好学习
 tags: self
+categories: articles
+comments: true
 ---
 
 在一家公司待上两年应该也是段很漫长的日子了吧，  

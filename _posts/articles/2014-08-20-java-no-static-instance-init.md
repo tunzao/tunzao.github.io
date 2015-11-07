@@ -2,6 +2,8 @@
 layout: post
 title: Java双括号语法
 tags: [java]
+categories: articles
+comments: true
 ---
 
 第一次接触双括号语法是使用mybatis，代码如下：

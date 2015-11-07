@@ -2,6 +2,8 @@
 layout: post
 title: SSH无密码登陆
 tags: [ssh]
+categories: articles
+comments: true
 ---
 
 这方面的文章网上写的也是异常泛滥了，  

@@ -2,6 +2,8 @@
 layout: post
 title: Ubuntu 12.04 创建wifi分享
 tags: [ubuntu]
+categories: articles
+comments: true
 ---
 
 如果你曾想过要用12.04建立个wifi分享的话，  

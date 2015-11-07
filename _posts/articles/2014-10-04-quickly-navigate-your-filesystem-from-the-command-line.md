@@ -2,6 +2,8 @@
 layout: post
 title: Shell书签功能
 tags: [linux, shell, jump]
+categories: articles
+comments: true
 ---
 
 使用shell时总会有些经常访问的目录，老是`cd`来`cd`去的实在是麻烦，

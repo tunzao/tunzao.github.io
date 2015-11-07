@@ -2,6 +2,8 @@
 layout: post
 title: Ubuntu命令行切换鼠标左右键
 tags: [ubuntu]
+categories: articles
+comments: true
 ---
 
 话不多说，让我们开始切换：  
