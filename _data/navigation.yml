@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Sample site navigation bar links
 
 - title: Home
@@ -14,3 +15,15 @@
 #   url: /search/
 # - title: External Page
 #   url: https://the-page.com/you-want-to-link-to.html
+=======
+# Site navigation links
+
+- title: About
+  url: /about/
+
+- title: Articles
+  url: /articles/
+
+- title: Search
+  url: /search/
+>>>>>>> set up new theme

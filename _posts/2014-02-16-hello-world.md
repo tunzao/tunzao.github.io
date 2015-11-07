@@ -16,7 +16,7 @@ print "hello world"
 {% endhighlight %}
 
 #### a piece of `java` code
-{% highlight java %}
+{% highlight properties %}
 /**
  * hello world 
  */
