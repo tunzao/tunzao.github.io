@@ -39,15 +39,15 @@ body {
 body {
 	font-family: $base-font;
 	color: $text-color;
-	@include font-size(16);
+	@include font-size(15);
 }
 
 p {
-	@include font-size(18,yes,28);
+	@include font-size(15,yes,24);
 }
 
 li {
-	@include font-size(16,12,24);
+	@include font-size(15,12,24);
 }
 
 /* headings */
@@ -176,7 +176,7 @@ table {
 blockquote {
 	font-family: $alt-font;
 	font-style: italic;
-	@include font-size(16);
+	@include font-size(15);
 	padding-left: 20px;
 	border-left: 8px solid $black;
 }
