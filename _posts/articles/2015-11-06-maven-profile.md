@@ -321,10 +321,10 @@ resources
                                 </goals>
                                 <configuration>
                                     <tasks>
-                                        <delete file="${project.build.outputDirectory}/log4j.xml"/>
-                                        <delete file="${project.build.outputDirectory}/log4j-product.xml"/>
-                                        <move file="${project.build.outputDirectory}/log4j-test.xml"
-                                              tofile="${project.build.outputDirectory}/log4j.xml"/>
+                                        <delete file="${outputDirectory}/log4j.xml"/>
+                                        <delete file="${outputDirectory}/log4j-product.xml"/>
+                                        <move file="${outputDirectory}/log4j-test.xml"
+                                              tofile="${outputDirectory}/log4j.xml"/>
                                     </tasks>
                                 </configuration>
                             </execution>
@@ -350,10 +350,10 @@ resources
                                 </goals>
                                 <configuration>
                                     <tasks>
-                                        <delete file="${project.build.outputDirectory}/log4j.xml"/>
-                                        <delete file="${project.build.outputDirectory}/log4j-test.xml"/>
-                                        <move file="${project.build.outputDirectory}/log4j-product.xml"
-                                              tofile="${project.build.outputDirectory}/log4j.xml"/>
+                                        <delete file="${outputDirectory}/log4j.xml"/>
+                                        <delete file="${outputDirectory}/log4j-test.xml"/>
+                                        <move file="${outputDirectory}/log4j-product.xml"
+                                              tofile="${outputDirectory}/log4j.xml"/>
                                     </tasks>
                                 </configuration>
                             </execution>
