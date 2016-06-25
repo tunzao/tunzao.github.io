@@ -4,10 +4,11 @@ title: 使用 Maven Profile 和 Filtering 打各种环境的包
 tags: [java, maven, profile]
 categories: articles
 comments: true
+excerpt_separator: <!--more-->
 ---
 
 
-每个项目都会有多套运行环境（开发，测试，正式等等），不同的环境配置也不尽相同（如jdbc.url)，借助Jenkins和自动部署提供的便利，我们可以把不同环境的配置文件单独抽离出来，打完包后用对应环境的配置文件替换打包后的文件，其实maven已经给我们提供了替换方案：`profile + filtering`
+每个项目都会有多套运行环境（开发，测试，正式等等），不同的环境配置也不尽相同（如`jdbc.url`)，<!--more-->借助Jenkins和自动部署提供的便利，我们可以把不同环境的配置文件单独抽离出来，打完包后用对应环境的配置文件替换打包后的文件，其实maven已经给我们提供了替换方案：`profile + filtering`
 
 ## Filtering
 Filtering 是 maven 的 resource 插件 提供的功能，作用是用环境变量、pom文件里定义的属性和指定配置文件里的属性替换属性(`*.properties`)文件里的占位符(`${jdbc.url}`)，具体使用如下：

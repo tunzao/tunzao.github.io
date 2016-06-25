@@ -4,10 +4,11 @@ title: 给hosts文件生成ctags文件
 tags: [linux, ctags]
 categories: articles
 comments: true
+excerpt_separator: <!--more-->
 ---
 经常编辑hosts文件，
 定位具体位置的时候以前用搜索功能，但是域名相似的配置实在太多，不能立即跳转到指定地方，
-其实已经把`hosts`划分成若干组，但是某些组的组名里还是包含了其他域名的关键字,
+其实已经把`hosts`划分成若干组，<!--more-->但是某些组的组名里还是包含了其他域名的关键字,
 其实可以起个完全不包含的别名啊，但是可读性不好,
 厌倦了搜索，于是想到了 `tags`。简单了搜索了下好像没有生成`hosts`文件`tags`文件的工具，还是自己手动生成之。
 
