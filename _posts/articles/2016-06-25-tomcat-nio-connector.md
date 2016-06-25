@@ -4,9 +4,10 @@ title: Tomcat NIO Connector
 tags: [tomcat]
 categories: articles
 comments: true
+excerpt_separator: <!--more-->
 ---
 
-Tomcat服务请求量巨大时connector线程数剧增。 Tomcat默认的connector是阻塞模式的(即BIO)， 每次请求都需要一个单独线程处理，另外对于`keep-alive`的HTTP请求， BIO的connector在完成一次请求后继续等待下一次请求， 如果已完成的请求没有设置`Connection: close`并且没有关闭连接， 这个connector线程就会等待`keep-alive`设置的超时时间，然后回到线程池，性能非常低（既然Tomcat提供了更高效的connector为什么还要把它设置成默认呢？即便是Tomcat7里也是如此）。为此Tomcat还提供了NIO的connector，基于 Java 的NIO特性实现一个线程处理多个连接的功能，这样在大量请求的时候就减缓了线程的上涨速度。另外在处理`keep-alive`的请求时，每当一个connector线程处理完请求后立即被放回线程池，避免了不必要的等待时间(`keep-alive`)。
+Tomcat服务请求量巨大时connector线程数剧增。 Tomcat默认的connector是阻塞模式的(即BIO)， 每次请求都需要一个单独线程处理，另外对于`keep-alive`的HTTP请求，<!--more--> BIO的connector在完成一次请求后继续等待下一次请求， 如果已完成的请求没有设置`Connection: close`并且没有关闭连接， 这个connector线程就会等待`keep-alive`设置的超时时间，然后回到线程池，性能非常低（既然Tomcat提供了更高效的connector为什么还要把它设置成默认呢？即便是Tomcat7里也是如此）。为此Tomcat还提供了NIO的connector，基于 Java 的NIO特性实现一个线程处理多个连接的功能，这样在大量请求的时候就减缓了线程的上涨速度。另外在处理`keep-alive`的请求时，每当一个connector线程处理完请求后立即被放回线程池，避免了不必要的等待时间(`keep-alive`)。
 
 启用NIO的方式是修改Tomcat的`server.xml`配置文件，把connector的protocol改为NIO：
 {% highlight xml %}

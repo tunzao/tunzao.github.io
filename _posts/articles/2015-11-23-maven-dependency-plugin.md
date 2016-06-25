@@ -4,9 +4,10 @@ layout: post
 tags: [maven]
 categories: articles
 comments: true
+excerpt_separator: <!--more-->
 ---
 
-偶然翻阅了下 maven dependency 插件的官方文档，颇有收获，记录一下。可能有些标题党的嫌疑，并没有具体介绍怎么解决依赖冲突问题，不过既然你都打印出了依赖树，冲突关系已然在树中显示的清清楚楚了。
+偶然翻阅了下 maven dependency 插件的官方文档，颇有收获，记录一下。可能有些标题党的嫌疑，并没有具体介绍怎么解决依赖冲突问题，不过既然你都打印出了依赖树，<!--more-->冲突关系已然在树中显示的清清楚楚了。
 
 ##依赖树
 `dependency:tree` 大概是用的最多的功能，用来排查依赖冲突，没有指定任何参数执行时打印是所有依赖信息，信息量略大，可以通过`includes`参数指定想看哪些依赖，也可以通过`excludes`参数指定不想看的。`includes`和`excludes`可以配合使用。举个例子吧：
