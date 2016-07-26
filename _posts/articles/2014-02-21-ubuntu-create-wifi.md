@@ -4,11 +4,12 @@ title: Ubuntu 12.04 创建wifi分享
 tags: [ubuntu]
 categories: articles
 comments: true
+excerpt_separator: <!--more-->
 ---
 
 如果你曾想过要用12.04建立个wifi分享的话，  
 你应该了解到，  
-直接通过右上角的网络管理新建的ad-hoc很多安卓设备没法识别。  
+直接通过右上角的网络管理新建的ad-hoc很多安卓设备没法识别。<!--more-->  
 所以你需要一款名为[ap-hotspot](http://www.ubuntuupdates.org/package/webupd8/raring/main/base/ap-hotspot)的软件协助  
 1.安装：  
 {% highlight bash %}
