@@ -2,7 +2,7 @@
 layout: post
 title: 读《大教堂与集市》
 tags: [reading]
-catagories: articles
+categories: articles
 comments: true
 ---
 
