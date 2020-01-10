@@ -25,7 +25,7 @@ en: &DEFAULT_EN
   newer: "Newer"
   older: "Older"
   back_to_top: "Back to Top"
-  search_placeholder_text: "Enter your search term..."
+  search_placeholder_text: "Type to search..."
   powered_by: "Powered by"
 en-US:
   <<: *DEFAULT_EN

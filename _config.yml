@@ -17,12 +17,12 @@ theme: jekyll-theme-so-simple
 # remote_theme: mmistakes/so-simple-theme
 skin: "/assets/css/skins/default.css"
 locale: en-US
-title: "My Awesome Site"
-description: "It really is the best."
+title: "吞枣的博客"
+description: "It works on my machine."
 baseurl: # the subpath of your site, e.g. "/blog"
-url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url: http://tunzao.me # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 logo: # path of site logo, e.g. "/images/logo.png"
-date_format: "%B %-d, %Y"
+date_format: "%Y-%m-%d"
 read_time: # reading time estimates, e.g. true
 words_per_minute: # 200
 mathjax: # MathJax equations, e.g. true
@@ -33,9 +33,9 @@ google_fonts:
     weights: "400,400i,700,700i"
 google_analytics: # Google Analytics id, e.g. "UA-NNNNNNNN-N"
 disqus:
-  shortname: # Disqus shortname, e.g. "my_disqus_shortname"
+  shortname: tunzao # Disqus shortname, e.g. "my_disqus_shortname"
 twitter:
-  username: # site's Twitter username, e.g. "mmistakes"
+  username: l_tunzao # site's Twitter username, e.g. "mmistakes"
 
 # Liquid
 liquid:
@@ -48,8 +48,8 @@ feed:
   path: atom.xml
 
 # Pagination - https://jekyllrb.com/docs/pagination/
-# paginate: 10
-# paginate_path: /page:num/
+paginate: 10
+paginate_path: /page:num/
 
 # Search
 search_full_content: false # can have performance implications for large sites
@@ -85,20 +85,27 @@ defaults:
     values:
       layout: post
       share: true
+      comments: true
 
 # Site Author
 author:
-  name:
-  picture:
-  email:
+  name: tunzao
+  picture: /images/tunzao.jpg
+  email: tunzao@live.cn
   twitter:
   links:
-    - title:
-      url:
-      icon:
+    - title: Weibo
+      url: https://weibo.com/tunzao
+      icon: fab fa-weibo
 
 # Footer Links
 footer_links:
+  - title: GitHub
+    url: https://github.com/tunzao
+    icon: fab fa-github-square
   - title: Feed
     url: atom.xml
     icon: fas fa-rss-square
+  - title: Weibo
+    url: https://weibo.com/tunzao
+    icon: fab fa-weibo 
