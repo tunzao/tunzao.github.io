@@ -2,7 +2,7 @@
 layout: post
 title: \[译\]Netflix数据平台自动诊断和自动修复系统
 tags: [translation]
-categories: articles
+categories: translations
 comments: true
 ---
 
