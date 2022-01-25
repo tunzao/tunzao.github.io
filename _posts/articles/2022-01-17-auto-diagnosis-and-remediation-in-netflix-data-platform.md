@@ -56,6 +56,4 @@ Pensive 对 Netflix 数据平台的日常运行至关重要。它帮助工程团
 
 感谢 Netflix 数据平台的离线计算团队和实时计算团队的帮助和支持，如果没有他们这项工作是无法完成的。在我们致力于改善 Pensive 的过程中，他们一直是我们的坚实的支柱。
 
-*原文*
-
-[Auto-Diagnosis and Remediation in Netflix Data Platform](https://netflixtechblog.com/auto-diagnosis-and-remediation-in-netflix-data-platform-5bcc52d853d1)  
+*原文链接：* [Auto-Diagnosis and Remediation in Netflix Data Platform](https://netflixtechblog.com/auto-diagnosis-and-remediation-in-netflix-data-platform-5bcc52d853d1)  
