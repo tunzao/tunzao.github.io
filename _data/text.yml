@@ -22,6 +22,8 @@ en: &DEFAULT_EN
   tweet: "Tweet"
   next: "Next"
   previous: "Previous"
+  next_page: "Next"
+  previous_page: "Previous"
   newer: "Newer"
   older: "Older"
   back_to_top: "Back to Top"
@@ -58,6 +60,8 @@ de: &DEFAULT_DE
   tweet: "Tweet"
   next: "Vor"
   previous: "Zurück"
+  next_page: "Vor"
+  previous_page: "Zurück"
   newer: "Neuer"
   older: "Älter"
   back_to_top: "Zurück nach Oben"
@@ -92,6 +96,8 @@ es: &DEFAULT_ES
   tweet: "Tweet"
   next: "Siguiente"
   previous: "Anterior"
+  next_page: "Siguiente"
+  previous_page: "Anterior"
   newer: "Nuevo"
   older: "Antiguo"
   back_to_top: "Volver arriba"
@@ -124,6 +130,8 @@ fr: &DEFAULT_FR
   tweet: "Tweet"
   next: "Suivant"
   previous: "Précédent"
+  next_page: "Suivant"
+  previous_page: "Précédent"
   newer: "Plus récent"
   older: "Plus ancier"
   back_to_top: "Retour en haut"
@@ -155,6 +163,8 @@ it: &DEFAULT_IT
   tweet: "Tweet"
   next: "Avanti"
   previous: "Indietro"
+  next_page: "Avanti"
+  previous_page: "Indietro"
   newer: "Nuovi"
   older: "Vecchi"
   back_to_top: "Torna in cima"
@@ -184,6 +194,8 @@ tr: &DEFAULT_TR
   tweet: "Tweet"
   next: "Sonraki"
   previous: "Önceki"
+  next_page: "Sonraki"
+  previous_page: "Önceki"
   newer: "Daha Yeni"
   older: "Daha Eski"
   back_to_top: "Başa Dön"
@@ -191,3 +203,42 @@ tr: &DEFAULT_TR
   powered_by: "Powered by"
 tr-TR:
   <<: *DEFAULT_TR
+
+# Simplified Chinese
+# -----------------
+zh: &DEFAULT_ZH
+  skip_links: "Skip links"
+  skip_primary_nav: "Skip to primary navigation"
+  skip_content: "Skip to content"
+  skip_footer: "Skip to footer"
+  menu_label: "菜单"
+  by: "作者"
+  min_read: "min read"
+  read_more: "Read more&hellip;"
+  categories: "分类"
+  tags: "标签"
+  pages_categorized: "查看更多"
+  pages_tagged: "查看更多"
+  table_of_contents: "Table of Contents"
+  results_found: "篇文章匹配"
+  share: "分享"
+  tweet: "Tweet"
+  next: "下一篇"
+  previous: "上一篇"
+  next_page: "下一页"
+  previous_page: "上一页"
+  newer: "Newer"
+  older: "Older"
+  back_to_top: "返回顶部"
+  search_placeholder_text: "输入以搜索..."
+  powered_by: "Powered by"
+zh-CN:
+  <<: *DEFAULT_ZH
+zh-TW:
+  <<: *DEFAULT_ZH
+zh-HK:
+  <<: *DEFAULT_ZH
+zh-MO:
+  <<: *DEFAULT_ZH
+
+

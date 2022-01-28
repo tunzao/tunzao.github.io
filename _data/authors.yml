@@ -1,7 +1,7 @@
 # Sample Authors
 # Remove file or replace with your own
 
-Billy Rick:
+tunzao:
   name: tunzao
   picture: /images/tunzao.jpg
   twitter: "@l.tunzao"
@@ -9,8 +9,3 @@ Billy Rick:
     - title: Twitter
       url: https://twitter.com/billyrick
       icon: fab fa-twitter-square
-
-Cornelius Fiddlebone:
-  name: Cornelius Fiddlebone
-  picture: /images/bio-photo.jpg
-  twitter: corneliusfiddlebone
